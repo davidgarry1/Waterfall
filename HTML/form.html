@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Waterfall Creator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="SCRIPT/jscript.js"></script>
+    <script src="SCRIPT/jq.js"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        S.I.W. Creator <i>v2.0</i>
+    </div>
+    <table id="main">
+        <tr>
+            <td>
+                <p id="s1" class="input">
+                    Symbols
+                    <textarea class="inn" id="w1" name="symbol_input" rows="46" cols="12"></textarea>
+                    </i>
+                </p>
+            </td>
+            <td>
+                <p id="s2" class="input">
+                    Prices
+                    <textarea class="inn" id="w2" name="price_input" rows="46" cols="12"></textarea>
+                </p>
+            </td>
+            <td>
+                <p id="s3" class="input">
+                    Sources
+                    <textarea class="inn" id="w3" name="source_input" rows="46" cols="12"></textarea>
+                </p>
+            </td>
+            <td>
+                <table id="submit">
+                    <tr>
+                        <th colspan="2">
+                            <button id="john" type="button" onmouseover="hover()" onmouseout="unhover()" onclick="submission(a1)">
+                                <b>Submit</b>
+                            </button>
+                            <th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea class="inn" id="s5" name="price_range" type="text" rows="1" cols="6"></textarea>
+                        </td>
+                        <td>Price [Or Range]</td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea class="inn" id="2s5" name="price_increment" type="text" rows="1" cols="6">$0.25</textarea>
+                        </td>
+                        <td>Increment</td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea class="inn" id="kk1" name="price_increment" type="text" rows="1" cols="6">7</textarea>
+                        </td>
+                        <td>Max Tags / Row</td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea class="inn" id="n1" type="text" rows="1" cols="6">$0.01</textarea>
+                        </td>
+                        <td>No Floor Min &#x394</td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea class="inn" id="n2" type="text" rows="1" cols="6">$0.50</textarea>
+                        </td>
+                        <td>General Min &#x394</td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea class="inn" id="n3" type="text" rows="1" cols="6">$8.00</textarea>
+                        </td>
+                        <td>$0-$3 Bound</td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea class="inn" id="n4" type="text" rows="1" cols="6">$7.00</textarea>
+                        </td>
+                        <td>$3-$7 Bound</td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea class="inn" id="n5" type="text" rows="1" cols="6">$6.00</textarea>
+                        </td>
+                        <td>$7-$10 Bound</td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea class="inn" id="n6" type="text" rows="1" cols="6">$5.00</textarea>
+                        </td>
+                        <td>$10+ Bound</td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea class="inn" id="s6" name="1percent" rows="4" cols="12">LiveRail</textarea>
+                        </td>
+                        <td>
+                            <textarea class="inn" id="fop" name="1percent" rows="1" cols="1">1</textarea>% Sources
+                            <td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea class="inn" id="s7" name="0percent" rows="4" cols="12"></textarea>
+                        </td>
+
+                        <td>Omit Sources</td>
+
+                        <tr>
+                            <tr>
+                                <td>
+                                    <input id="isymbol" type="radio" name="display" value="symbols" checked>
+                                </td>
+                                <td>Show Symbols</td>
+                                </input>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input id="iprice" type="radio" name="display" value="prices">
+                                </td>
+                                <td>Show Prices</td>
+                                </input>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input id="isource" type="radio" name="display" value="sources">
+                                </td>
+                                <td>Show Sources</td>
+                                </input>
+                            </tr>
+                </table>
+                </td>
+                <td>
+                    <p id="s4" class="output">
+                        Output <span id="ff"><img src="CSS/IMG/spin.gif" id="loading" height="20px" width="20px"></span>
+                        <textarea class="inn2" id="a1" name="output" rows="46" cols="60"></textarea>
+                    </p>
+                </td>
+                </tr>
+                <div id="footer">
+                    <i>Last Updated 1/1/16 by David Garry</i>
+                </div>
+</body>
+
+</html>

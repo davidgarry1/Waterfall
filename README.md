@@ -1,2 +1,3 @@
-# Waterfall
-Initial Tag List Creator
+# Waterfall Archive
+
+This is a project that I worked on in 2014 as a tool for advertising platforms. It is useful in creating lists called “tag waterfalls.” Essentially, sell-side advertising platforms have “tags” or "company codes" that represent other companies looking to purchase advertising space on websites. The platforms aim to sell their available advertising space for the highest price possible. The platform can offer the space to about 3-8 different “tags” (other companies) before one must be chosen (or else the end-user visiting the webpage will have far too long of a lag – latency – and the website risks losing the user). This tool orders these tags in the optimal order for any price point based on the platform's goals, whether that may be low latency, highest revenue, most source distribution, minimum profit margins, or other settings. It is a comprehensive tool, using a proprietary algorithm that comes with suggestions and list error checking. This is the web version.
